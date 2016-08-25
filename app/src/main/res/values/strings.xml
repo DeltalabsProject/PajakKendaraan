@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Pajak Kendaraan</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="spinner_name">Pilih Provinsi</string>
+    <string name="about">Aplikasi untuk mengecek pajak kendaraan di Jakarta, Jawa Tengah, Aceh dan Kalimantan Tengah berdasarkan nomor polisi kendaraan.\nAplikasi ini menggunakan API yang dibuat oleh Ican Bachors dan tersedia di http://ibacor.com/api\n\nDirancang dan dibuat oleh\nYoyocx S Praditya Putra\n\nwww.deltacomputindo.com\nDELTALABS-@2016\n\nLIBS\nhttp://ibacor.com/api/pajak-kendaraan\nhttp://square.github.io/retrofit/\nhttp://www.jsonschema2pojo.org/</string>
+</resources>

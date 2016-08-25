@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout android:orientation="vertical" android:background="@color/colorPrimary" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="50dp" android:baselineAligned="false">
+            <LinearLayout android:layout_gravity="center" android:gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:layout_weight="1.0">
+                <TextView
+                    android:gravity="center" android:textSize="18sp" android:textStyle="bold" android:textColor="@android:color/white" android:id="@+id/title_hasil" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Pajak Kendaraan v1.0.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/about"
+        android:id="@+id/detail_hasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
